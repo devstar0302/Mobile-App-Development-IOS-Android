@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gluttonG" translatesAutoresizingMaskIntoConstraints="NO" id="m9E-Fp-9M1">
+                    <rect key="frame" x="87" y="156" width="241" height="242"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="242" id="mqD-HL-ebB"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gText" translatesAutoresizingMaskIntoConstraints="NO" id="prM-Ee-pne">
+                    <rect key="frame" x="73" y="406" width="269" height="134"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="134" id="GtV-B2-g3L"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.54351194899999999" blue="0.18546904889999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="prM-Ee-pne" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ANy-bE-hHu"/>
+                <constraint firstItem="prM-Ee-pne" firstAttribute="top" secondItem="m9E-Fp-9M1" secondAttribute="bottom" constant="8" symbolic="YES" id="Bhs-Ec-ZUu"/>
+                <constraint firstItem="m9E-Fp-9M1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="87" id="NdK-Rj-e0h"/>
+                <constraint firstItem="m9E-Fp-9M1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="156" id="Zus-69-uag"/>
+                <constraint firstItem="prM-Ee-pne" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="73" id="aQu-XA-NAr"/>
+                <constraint firstItem="prM-Ee-pne" firstAttribute="centerX" secondItem="m9E-Fp-9M1" secondAttribute="centerX" id="h1X-ii-wcH"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gText" width="240" height="120"/>
+        <image name="gluttonG" width="240" height="240"/>
+    </resources>
+</document>

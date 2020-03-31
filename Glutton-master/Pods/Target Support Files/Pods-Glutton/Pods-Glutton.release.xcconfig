@@ -1,0 +1,7 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AFOAuth2Manager" "${PODS_ROOT}/Headers/Public/CSStickyHeaderFlowLayout" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MDCSwipeToChoose" "${PODS_ROOT}/Headers/Public/OAuthConsumer" "${PODS_ROOT}/Headers/Public/URBMediaFocusViewController" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AFOAuth2Manager" -isystem "${PODS_ROOT}/Headers/Public/CSStickyHeaderFlowLayout" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/MDCSwipeToChoose" -isystem "${PODS_ROOT}/Headers/Public/OAuthConsumer" -isystem "${PODS_ROOT}/Headers/Public/URBMediaFocusViewController" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"AFOAuth2Manager" -l"CSStickyHeaderFlowLayout" -l"MBProgressHUD" -l"MDCSwipeToChoose" -l"OAuthConsumer" -l"URBMediaFocusViewController" -l"c++" -l"pop" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

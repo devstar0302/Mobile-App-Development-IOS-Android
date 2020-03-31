@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOAuth2Manager (2.2.0):
+    - AFNetworking/NSURLConnection (~> 2.2)
+  - CSStickyHeaderFlowLayout (0.2.5)
+  - MBProgressHUD (0.9.1)
+  - MDCSwipeToChoose (HEAD based on 0.2.3)
+  - OAuthConsumer (1.0.3)
+  - pop (1.0.7)
+  - URBMediaFocusViewController (0.5.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.1)
+  - AFOAuth2Manager
+  - CSStickyHeaderFlowLayout
+  - MBProgressHUD (~> 0.9.1)
+  - MDCSwipeToChoose (HEAD)
+  - OAuthConsumer
+  - pop (~> 1.0)
+  - URBMediaFocusViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  AFOAuth2Manager: 952eb62e8fd8022971e64c6e8fe28b9e999224af
+  CSStickyHeaderFlowLayout: 75e439a59c23f609091d9a784c7b5db7de583f1f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MDCSwipeToChoose: 56239d98b4558c66e7c3c9069482befd26092270
+  OAuthConsumer: 9e99725d1d58d076ed13e6010a2d74f82e25e4cc
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  URBMediaFocusViewController: 21618bda6290f74b2767059e983f3a7f4f3e8cd1
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1614B91ADE050D00447673 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1614B81ADE050D00447673 /* Restaurant.m */; };
+		3E1614BD1ADE156700447673 /* ImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1614BC1ADE156700447673 /* ImageLabelView.m */; };
+		3E1614C01ADE17A200447673 /* ChooseRestaurantView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1614BF1ADE17A200447673 /* ChooseRestaurantView.m */; };
+		3E18B25B1AE5B0660027BB60 /* RestaurantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E18B25A1AE5B0660027BB60 /* RestaurantCell.m */; };
+		3E18B25E1AE5D7D50027BB60 /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E18B25D1AE5D7D50027BB60 /* RestaurantDetailViewController.m */; };
+		3E18B2601AE5F11B0027BB60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E18B25F1AE5F11B0027BB60 /* MapKit.framework */; };
+		3E35DB3B1AE440690066EFEA /* GluttonTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35DB3A1AE440690066EFEA /* GluttonTabBarController.m */; };
+		3E35DB3E1AE455EC0066EFEA /* GluttonNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35DB3D1AE455EC0066EFEA /* GluttonNavigationController.m */; };
+		3E35DB481AE45D9B0066EFEA /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DB401AE45D6F0066EFEA /* Lobster-Regular.ttf */; };
+		3E406D1D1AE85AA0002DB3C7 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E406D1C1AE85AA0002DB3C7 /* MapPin.m */; };
+		3E5447301ACDEB930079BF46 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E54472F1ACDEB930079BF46 /* NSURLRequest+OAuth.m */; };
+		3E5447361ACDFB7B0079BF46 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5447351ACDFB7B0079BF46 /* SwipeViewController.m */; };
+		3E6F38841ACCD62D005739B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F38831ACCD62D005739B1 /* main.m */; };
+		3E6F38871ACCD62D005739B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F38861ACCD62D005739B1 /* AppDelegate.m */; };
+		3E6F388D1ACCD62D005739B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F388B1ACCD62D005739B1 /* Main.storyboard */; };
+		3E6F388F1ACCD62D005739B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F388E1ACCD62D005739B1 /* Images.xcassets */; };
+		3E6F38921ACCD62D005739B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F38901ACCD62D005739B1 /* LaunchScreen.xib */; };
+		3E6F389E1ACCD62D005739B1 /* GluttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F389D1ACCD62D005739B1 /* GluttonTests.m */; };
+		3E6F38AB1ACD10FC005739B1 /* YelpYapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F38AA1ACD10FC005739B1 /* YelpYapper.m */; };
+		5D0CB1141AD09C0A005D600B /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CB1131AD09C0A005D600B /* SummaryViewController.m */; };
+		5D0CB1171AD09CCE005D600B /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CB1161AD09CCE005D600B /* CollectionViewController.m */; };
+		5D2F3BE11AF870800022CB74 /* BounceViewBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F3BE01AF870800022CB74 /* BounceViewBehaviour.m */; };
+		5D677BA81AEFD5D8004E182A /* StyledLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D677BA71AEFD5D8004E182A /* StyledLabel.m */; };
+		5D677BAB1AEFD9FE004E182A /* DetailEmbedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D677BAA1AEFD9FE004E182A /* DetailEmbedTableViewController.m */; };
+		5D9DC2881AE974E300117777 /* SummaryTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DC2871AE974E300117777 /* SummaryTitleLabel.m */; };
+		5D9DC28B1AE9774300117777 /* SummaryValueLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DC28A1AE9774300117777 /* SummaryValueLabel.m */; };
+		5D9DC28E1AE97D7800117777 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DC28D1AE97D7800117777 /* SettingsViewController.m */; };
+		7203241D1BE097D600B0B225 /* bariol_light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7203241C1BE097D600B0B225 /* bariol_light-webfont.ttf */; };
+		7203241F1BE0990400B0B225 /* bariol_bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7203241E1BE0990400B0B225 /* bariol_bold-webfont.ttf */; };
+		720324211BE09B3300B0B225 /* bariol_regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 720324201BE09B3300B0B225 /* bariol_regular-webfont.ttf */; };
+		C38BFD54F4564454AFCEECE5 /* libPods-Glutton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC0AC02F0046898F670AA3 /* libPods-Glutton.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E6F38981ACCD62D005739B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E6F38761ACCD62C005739B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E6F387D1ACCD62D005739B1;
+			remoteInfo = Glutton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E1614B71ADE050D00447673 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		3E1614B81ADE050D00447673 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		3E1614BB1ADE156700447673 /* ImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLabelView.h; sourceTree = "<group>"; };
+		3E1614BC1ADE156700447673 /* ImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLabelView.m; sourceTree = "<group>"; };
+		3E1614BE1ADE17A200447673 /* ChooseRestaurantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRestaurantView.h; sourceTree = "<group>"; };
+		3E1614BF1ADE17A200447673 /* ChooseRestaurantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRestaurantView.m; sourceTree = "<group>"; };
+		3E18B2591AE5B0660027BB60 /* RestaurantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantCell.h; sourceTree = "<group>"; };
+		3E18B25A1AE5B0660027BB60 /* RestaurantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantCell.m; sourceTree = "<group>"; };
+		3E18B25C1AE5D7D50027BB60 /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
+		3E18B25D1AE5D7D50027BB60 /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
+		3E18B25F1AE5F11B0027BB60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3E35DB391AE440690066EFEA /* GluttonTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GluttonTabBarController.h; sourceTree = "<group>"; };
+		3E35DB3A1AE440690066EFEA /* GluttonTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GluttonTabBarController.m; sourceTree = "<group>"; };
+		3E35DB3C1AE455EC0066EFEA /* GluttonNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GluttonNavigationController.h; sourceTree = "<group>"; };
+		3E35DB3D1AE455EC0066EFEA /* GluttonNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GluttonNavigationController.m; sourceTree = "<group>"; };
+		3E35DB401AE45D6F0066EFEA /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		3E406D1B1AE85AA0002DB3C7 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		3E406D1C1AE85AA0002DB3C7 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		3E54472E1ACDEB930079BF46 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		3E54472F1ACDEB930079BF46 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
+		3E5447341ACDFB7B0079BF46 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		3E5447351ACDFB7B0079BF46 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		3E6F387E1ACCD62D005739B1 /* Glutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6F38821ACCD62D005739B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E6F38831ACCD62D005739B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E6F38851ACCD62D005739B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E6F38861ACCD62D005739B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E6F388C1ACCD62D005739B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E6F388E1ACCD62D005739B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E6F38911ACCD62D005739B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3E6F38971ACCD62D005739B1 /* GluttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GluttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6F389C1ACCD62D005739B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E6F389D1ACCD62D005739B1 /* GluttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GluttonTests.m; sourceTree = "<group>"; };
+		3E6F38A81ACD1072005739B1 /* ExampleAPICredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAPICredentials.h; sourceTree = "<group>"; };
+		3E6F38A91ACD10FC005739B1 /* YelpYapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpYapper.h; sourceTree = "<group>"; };
+		3E6F38AA1ACD10FC005739B1 /* YelpYapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpYapper.m; sourceTree = "<group>"; };
+		414B40F44CFFE832A8010A1D /* Pods-Glutton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Glutton/Pods-Glutton.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0CB1121AD09C0A005D600B /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		5D0CB1131AD09C0A005D600B /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		5D0CB1151AD09CCE005D600B /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		5D0CB1161AD09CCE005D600B /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		5D2F3BDF1AF870800022CB74 /* BounceViewBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceViewBehaviour.h; sourceTree = "<group>"; };
+		5D2F3BE01AF870800022CB74 /* BounceViewBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceViewBehaviour.m; sourceTree = "<group>"; };
+		5D677BA61AEFD5D8004E182A /* StyledLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledLabel.h; sourceTree = "<group>"; };
+		5D677BA71AEFD5D8004E182A /* StyledLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledLabel.m; sourceTree = "<group>"; };
+		5D677BA91AEFD9FE004E182A /* DetailEmbedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEmbedTableViewController.h; sourceTree = "<group>"; };
+		5D677BAA1AEFD9FE004E182A /* DetailEmbedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEmbedTableViewController.m; sourceTree = "<group>"; };
+		5D9DC2861AE974E300117777 /* SummaryTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryTitleLabel.h; sourceTree = "<group>"; };
+		5D9DC2871AE974E300117777 /* SummaryTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryTitleLabel.m; sourceTree = "<group>"; };
+		5D9DC2891AE9774300117777 /* SummaryValueLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryValueLabel.h; sourceTree = "<group>"; };
+		5D9DC28A1AE9774300117777 /* SummaryValueLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryValueLabel.m; sourceTree = "<group>"; };
+		5D9DC28C1AE97D7800117777 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5D9DC28D1AE97D7800117777 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7203241C1BE097D600B0B225 /* bariol_light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bariol_light-webfont.ttf"; sourceTree = "<group>"; };
+		7203241E1BE0990400B0B225 /* bariol_bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bariol_bold-webfont.ttf"; sourceTree = "<group>"; };
+		720324201BE09B3300B0B225 /* bariol_regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bariol_regular-webfont.ttf"; sourceTree = "<group>"; };
+		72AEDAE91B65A558002C3739 /* APICredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APICredentials.h; sourceTree = "<group>"; };
+		7B594CF81E7127B5838B2783 /* Pods-Glutton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutton.release.xcconfig"; path = "Pods/Target Support Files/Pods-Glutton/Pods-Glutton.release.xcconfig"; sourceTree = "<group>"; };
+		A0EC0AC02F0046898F670AA3 /* libPods-Glutton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glutton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E6F387B1ACCD62D005739B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18B2601AE5F11B0027BB60 /* MapKit.framework in Frameworks */,
+				C38BFD54F4564454AFCEECE5 /* libPods-Glutton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6F38941ACCD62D005739B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1614B41ADE03AA00447673 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D0CB1121AD09C0A005D600B /* SummaryViewController.h */,
+				5D0CB1131AD09C0A005D600B /* SummaryViewController.m */,
+				3E5447341ACDFB7B0079BF46 /* SwipeViewController.h */,
+				3E5447351ACDFB7B0079BF46 /* SwipeViewController.m */,
+				5D0CB1151AD09CCE005D600B /* CollectionViewController.h */,
+				5D0CB1161AD09CCE005D600B /* CollectionViewController.m */,
+				3E35DB391AE440690066EFEA /* GluttonTabBarController.h */,
+				3E35DB3A1AE440690066EFEA /* GluttonTabBarController.m */,
+				3E35DB3C1AE455EC0066EFEA /* GluttonNavigationController.h */,
+				3E35DB3D1AE455EC0066EFEA /* GluttonNavigationController.m */,
+				3E18B25C1AE5D7D50027BB60 /* RestaurantDetailViewController.h */,
+				3E18B25D1AE5D7D50027BB60 /* RestaurantDetailViewController.m */,
+				5D9DC28C1AE97D7800117777 /* SettingsViewController.h */,
+				5D9DC28D1AE97D7800117777 /* SettingsViewController.m */,
+				5D677BA91AEFD9FE004E182A /* DetailEmbedTableViewController.h */,
+				5D677BAA1AEFD9FE004E182A /* DetailEmbedTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3E1614B51ADE03D000447673 /* Network Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				3E54472E1ACDEB930079BF46 /* NSURLRequest+OAuth.h */,
+				3E54472F1ACDEB930079BF46 /* NSURLRequest+OAuth.m */,
+				72AEDAE91B65A558002C3739 /* APICredentials.h */,
+				3E6F38A81ACD1072005739B1 /* ExampleAPICredentials.h */,
+				3E6F38A91ACD10FC005739B1 /* YelpYapper.h */,
+				3E6F38AA1ACD10FC005739B1 /* YelpYapper.m */,
+			);
+			name = "Network Interfaces";
+			sourceTree = "<group>";
+		};
+		3E1614B61ADE04E800447673 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E1614B71ADE050D00447673 /* Restaurant.h */,
+				3E1614B81ADE050D00447673 /* Restaurant.m */,
+				3E406D1B1AE85AA0002DB3C7 /* MapPin.h */,
+				3E406D1C1AE85AA0002DB3C7 /* MapPin.m */,
+				5D9DC2861AE974E300117777 /* SummaryTitleLabel.h */,
+				5D9DC2871AE974E300117777 /* SummaryTitleLabel.m */,
+				5D9DC2891AE9774300117777 /* SummaryValueLabel.h */,
+				5D9DC28A1AE9774300117777 /* SummaryValueLabel.m */,
+				5D677BA61AEFD5D8004E182A /* StyledLabel.h */,
+				5D677BA71AEFD5D8004E182A /* StyledLabel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3E1614BA1ADE14A500447673 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E1614BB1ADE156700447673 /* ImageLabelView.h */,
+				3E1614BC1ADE156700447673 /* ImageLabelView.m */,
+				3E1614BE1ADE17A200447673 /* ChooseRestaurantView.h */,
+				3E1614BF1ADE17A200447673 /* ChooseRestaurantView.m */,
+				3E18B2591AE5B0660027BB60 /* RestaurantCell.h */,
+				3E18B25A1AE5B0660027BB60 /* RestaurantCell.m */,
+				5D2F3BDF1AF870800022CB74 /* BounceViewBehaviour.h */,
+				5D2F3BE01AF870800022CB74 /* BounceViewBehaviour.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3E35DB3F1AE45D500066EFEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E35DB401AE45D6F0066EFEA /* Lobster-Regular.ttf */,
+				7203241C1BE097D600B0B225 /* bariol_light-webfont.ttf */,
+				7203241E1BE0990400B0B225 /* bariol_bold-webfont.ttf */,
+				720324201BE09B3300B0B225 /* bariol_regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E6F38751ACCD62C005739B1 = {
+			isa = PBXGroup;
+			children = (
+				3E6F38801ACCD62D005739B1 /* Glutton */,
+				3E6F389A1ACCD62D005739B1 /* GluttonTests */,
+				3E6F387F1ACCD62D005739B1 /* Products */,
+				D76C2593DF664CE9BD8D035F /* Frameworks */,
+				F33705AFF53FBFFE6791FC11 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3E6F387F1ACCD62D005739B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E6F387E1ACCD62D005739B1 /* Glutton.app */,
+				3E6F38971ACCD62D005739B1 /* GluttonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E6F38801ACCD62D005739B1 /* Glutton */ = {
+			isa = PBXGroup;
+			children = (
+				3E35DB3F1AE45D500066EFEA /* Resources */,
+				3E1614BA1ADE14A500447673 /* Views */,
+				3E1614B61ADE04E800447673 /* Models */,
+				3E1614B51ADE03D000447673 /* Network Interfaces */,
+				3E1614B41ADE03AA00447673 /* Controllers */,
+				3E6F38811ACCD62D005739B1 /* Supporting Files */,
+			);
+			path = Glutton;
+			sourceTree = "<group>";
+		};
+		3E6F38811ACCD62D005739B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E6F38851ACCD62D005739B1 /* AppDelegate.h */,
+				3E6F38861ACCD62D005739B1 /* AppDelegate.m */,
+				3E6F388B1ACCD62D005739B1 /* Main.storyboard */,
+				3E6F388E1ACCD62D005739B1 /* Images.xcassets */,
+				3E6F38901ACCD62D005739B1 /* LaunchScreen.xib */,
+				3E6F38821ACCD62D005739B1 /* Info.plist */,
+				3E6F38831ACCD62D005739B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E6F389A1ACCD62D005739B1 /* GluttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E6F389D1ACCD62D005739B1 /* GluttonTests.m */,
+				3E6F389B1ACCD62D005739B1 /* Supporting Files */,
+			);
+			path = GluttonTests;
+			sourceTree = "<group>";
+		};
+		3E6F389B1ACCD62D005739B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E6F389C1ACCD62D005739B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D76C2593DF664CE9BD8D035F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E18B25F1AE5F11B0027BB60 /* MapKit.framework */,
+				A0EC0AC02F0046898F670AA3 /* libPods-Glutton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F33705AFF53FBFFE6791FC11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				414B40F44CFFE832A8010A1D /* Pods-Glutton.debug.xcconfig */,
+				7B594CF81E7127B5838B2783 /* Pods-Glutton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E6F387D1ACCD62D005739B1 /* Glutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6F38A11ACCD62D005739B1 /* Build configuration list for PBXNativeTarget "Glutton" */;
+			buildPhases = (
+				7795593F82F546BDA6BF0D30 /* Check Pods Manifest.lock */,
+				3E6F387A1ACCD62D005739B1 /* Sources */,
+				3E6F387B1ACCD62D005739B1 /* Frameworks */,
+				3E6F387C1ACCD62D005739B1 /* Resources */,
+				F2F64951F53C4FF28B4AB5A7 /* Copy Pods Resources */,
+				8B343C708AF62930B07D8878 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glutton;
+			productName = Glutton;
+			productReference = 3E6F387E1ACCD62D005739B1 /* Glutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E6F38961ACCD62D005739B1 /* GluttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6F38A41ACCD62D005739B1 /* Build configuration list for PBXNativeTarget "GluttonTests" */;
+			buildPhases = (
+				3E6F38931ACCD62D005739B1 /* Sources */,
+				3E6F38941ACCD62D005739B1 /* Frameworks */,
+				3E6F38951ACCD62D005739B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E6F38991ACCD62D005739B1 /* PBXTargetDependency */,
+			);
+			name = GluttonTests;
+			productName = GluttonTests;
+			productReference = 3E6F38971ACCD62D005739B1 /* GluttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E6F38761ACCD62C005739B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TylerCo;
+				TargetAttributes = {
+					3E6F387D1ACCD62D005739B1 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = YRUMA36JE5;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3E6F38961ACCD62D005739B1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3E6F387D1ACCD62D005739B1;
+					};
+				};
+			};
+			buildConfigurationList = 3E6F38791ACCD62C005739B1 /* Build configuration list for PBXProject "Glutton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E6F38751ACCD62C005739B1;
+			productRefGroup = 3E6F387F1ACCD62D005739B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E6F387D1ACCD62D005739B1 /* Glutton */,
+				3E6F38961ACCD62D005739B1 /* GluttonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E6F387C1ACCD62D005739B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6F388D1ACCD62D005739B1 /* Main.storyboard in Resources */,
+				720324211BE09B3300B0B225 /* bariol_regular-webfont.ttf in Resources */,
+				7203241D1BE097D600B0B225 /* bariol_light-webfont.ttf in Resources */,
+				3E35DB481AE45D9B0066EFEA /* Lobster-Regular.ttf in Resources */,
+				3E6F38921ACCD62D005739B1 /* LaunchScreen.xib in Resources */,
+				3E6F388F1ACCD62D005739B1 /* Images.xcassets in Resources */,
+				7203241F1BE0990400B0B225 /* bariol_bold-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6F38951ACCD62D005739B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7795593F82F546BDA6BF0D30 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B343C708AF62930B07D8878 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glutton/Pods-Glutton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F64951F53C4FF28B4AB5A7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glutton/Pods-Glutton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E6F387A1ACCD62D005739B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CB1171AD09CCE005D600B /* CollectionViewController.m in Sources */,
+				3E18B25E1AE5D7D50027BB60 /* RestaurantDetailViewController.m in Sources */,
+				3E1614C01ADE17A200447673 /* ChooseRestaurantView.m in Sources */,
+				5D9DC28E1AE97D7800117777 /* SettingsViewController.m in Sources */,
+				5D677BAB1AEFD9FE004E182A /* DetailEmbedTableViewController.m in Sources */,
+				3E18B25B1AE5B0660027BB60 /* RestaurantCell.m in Sources */,
+				3E6F38871ACCD62D005739B1 /* AppDelegate.m in Sources */,
+				3E6F38AB1ACD10FC005739B1 /* YelpYapper.m in Sources */,
+				5D2F3BE11AF870800022CB74 /* BounceViewBehaviour.m in Sources */,
+				3E5447361ACDFB7B0079BF46 /* SwipeViewController.m in Sources */,
+				3E5447301ACDEB930079BF46 /* NSURLRequest+OAuth.m in Sources */,
+				3E406D1D1AE85AA0002DB3C7 /* MapPin.m in Sources */,
+				3E1614B91ADE050D00447673 /* Restaurant.m in Sources */,
+				3E35DB3E1AE455EC0066EFEA /* GluttonNavigationController.m in Sources */,
+				3E1614BD1ADE156700447673 /* ImageLabelView.m in Sources */,
+				3E35DB3B1AE440690066EFEA /* GluttonTabBarController.m in Sources */,
+				5D677BA81AEFD5D8004E182A /* StyledLabel.m in Sources */,
+				5D9DC28B1AE9774300117777 /* SummaryValueLabel.m in Sources */,
+				3E6F38841ACCD62D005739B1 /* main.m in Sources */,
+				5D9DC2881AE974E300117777 /* SummaryTitleLabel.m in Sources */,
+				5D0CB1141AD09C0A005D600B /* SummaryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6F38931ACCD62D005739B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6F389E1ACCD62D005739B1 /* GluttonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E6F38991ACCD62D005739B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E6F387D1ACCD62D005739B1 /* Glutton */;
+			targetProxy = 3E6F38981ACCD62D005739B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E6F388B1ACCD62D005739B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E6F388C1ACCD62D005739B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E6F38901ACCD62D005739B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E6F38911ACCD62D005739B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E6F389F1ACCD62D005739B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E6F38A01ACCD62D005739B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E6F38A21ACCD62D005739B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414B40F44CFFE832A8010A1D /* Pods-Glutton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Glutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TylerCo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3E6F38A31ACCD62D005739B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B594CF81E7127B5838B2783 /* Pods-Glutton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Glutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TylerCo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3E6F38A51ACCD62D005739B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GluttonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TylerCo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glutton.app/Glutton";
+			};
+			name = Debug;
+		};
+		3E6F38A61ACCD62D005739B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GluttonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TylerCo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glutton.app/Glutton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E6F38791ACCD62C005739B1 /* Build configuration list for PBXProject "Glutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6F389F1ACCD62D005739B1 /* Debug */,
+				3E6F38A01ACCD62D005739B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6F38A11ACCD62D005739B1 /* Build configuration list for PBXNativeTarget "Glutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6F38A21ACCD62D005739B1 /* Debug */,
+				3E6F38A31ACCD62D005739B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6F38A41ACCD62D005739B1 /* Build configuration list for PBXNativeTarget "GluttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6F38A51ACCD62D005739B1 /* Debug */,
+				3E6F38A61ACCD62D005739B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E6F38761ACCD62C005739B1 /* Project object */;
+}
